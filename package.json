@@ -79,6 +79,7 @@
   "scripts": {
     "test": "make test",
     "start": "bin/strider",
+    "setup": "nodejs bin/strider addUser",
     "blanket": {
       "pattern": "lib",
       "data-cover-never": "node_modules"
